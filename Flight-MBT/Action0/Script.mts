@@ -3,3 +3,5 @@ RunAction "200-BookFlight", oneIteration, "London", "Paris", "Economy", "1", "Jo
 RunAction "300-ChangeOrder", oneIteration
 RunAction "400-DeleteOrderNum", oneIteration, Parameter("200-BookFlight", "OrderNumberOut"), Parameter("200-BookFlight", "PassengerNameOut"), Parameter("200-BookFlight", "OrderDateOut")
 RunAction "700-Logout", oneIteration
+
+echo "hello"
